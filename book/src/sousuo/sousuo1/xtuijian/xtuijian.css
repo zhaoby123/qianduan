@@ -1,0 +1,39 @@
+.kuang{
+    height: 128px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px 0;
+}
+.tu{
+    width: 72px;
+    height: 96px;
+    margin-right: 12px;
+    float: left;
+}
+.st{
+    width: 130px;
+    height: 93px;
+    float: left;
+}
+.st>h4{
+    font: 16px/21px'Helvetica Neue Light';
+    overflow: hidden;
+    height: 21px;
+    margin-bottom: 8px;
+}
+.st>p:nth-child(2){
+    font: 12px/16p;
+    color: #a6a6a6;
+}
+
+.st>p:nth-child(2)>a{
+    color: #a6a6a6;
+}
+.st>p:nth-child(3){
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 8px;
+    color: #666;
+}
+

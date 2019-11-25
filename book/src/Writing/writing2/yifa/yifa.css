@@ -1,0 +1,109 @@
+.zhuan{
+    border-bottom: 1px solid #E6E6E6;
+}
+.zhuan::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.zhuan>div:first-child{
+    float: left;
+    width: 306px;
+    height: 55px;
+}
+.zhuan1>span{
+    float: left;
+    padding: 16px 19px 0;
+    height: 55px;
+    font: 16px/36px "PingFangSC-Regular";
+    cursor: pointer;
+    text-align: center;
+}
+.zhuan1>span:nth-child(3){
+    border-bottom: 3px solid #4EA8FF;
+}
+.zhuan1>span:nth-child(3)>a{
+    color: #4EA8FF;
+}
+.zhuan1>span:nth-child(1)>a:hover{color: #4EA8FF};
+.zhuan1>span:nth-child(2)>a:hover{color: #4EA8FF};
+
+.zhuan2::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.zhuan2 a{
+    float: right;
+    margin-right: 10px;
+    margin-top: 17px;
+}
+
+
+.xie1{
+    height: 788px;
+    width: 230px;
+    float: left   
+}
+.xie1>div:nth-child(1){
+    height: 47px;
+    background: #F6F6F6;
+}
+.xie1>div:nth-child(1) p{
+    padding-left: 9px;
+    font: 12px/56px "PingFangSC-Regular";
+    color: #999;
+}
+.xie1>div:nth-child(2){
+    border-top: 1px solid #E6E6E6;
+    min-height: 740px;
+}
+
+.xie2{
+    width: 808px;
+    border-left: 1px solid #E6E6E6;
+    min-height: 695px;
+    float: left;
+}
+.xie2>div:nth-child(1){
+    width: 808px;
+    padding: 1px 22px;
+    border-bottom: 1px solid #E6E6E6;
+    height: 46px;
+    font-size: 12px;
+    float: right;
+}
+.xie2>div:nth-child(1)>button{
+    margin-top: 7px;
+    margin-left: 15px;
+    float: right;
+}
+
+.xie2>div:nth-child(2){
+    padding: 0 20px;
+    font: 16px/2 "PingFangSC-Regular", "HelveticaNeue-Light", "Helvetica Neue Light", "Microsoft YaHei", "sans-serif";
+    word-break: break-all;
+    color: #575757;
+}
+.xie2>div:nth-child(2)>input{
+    border: none;
+    display: block;
+    border-bottom: 1px solid #E6E6E6;
+    width: 769px;
+    margin: 0 0 10px;
+    padding: 0 0 6px 0;
+    height: 40px;
+    font: 18px/40px "PingFangSC-Regular";
+    text-indent: 4px;
+}
+.xie2>div:nth-child(2)>textarea{
+    overflow: hidden;
+    overflow-y: auto;
+    border: none;
+    width: 769px;
+    height: 540px;
+    padding: 0 4px;
+    word-break: break-all;
+    resize: none;
+}
+

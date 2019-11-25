@@ -1,0 +1,103 @@
+.kuang{
+    border: 1px solid #DDD;
+    min-height: 800px;
+}
+.tou{
+    border-bottom: 1px solid #E6E6E6;
+    height: 45px;
+    padding-left: 18px;
+    background: #F9F9F9;
+}
+.tou span{
+    display: inline-block;
+    font: 14px/44px "PingFangSC-Regular";
+}
+.shezhi{
+    padding: 40px 0 0 40px;
+    width: 1041px;
+    height: 769px;
+}
+.shezhi::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.shezhi>div:nth-child(1){
+    border: 1px solid #E6E6E6;
+    width: 120px;
+    height: 158px;
+    margin: 8px 40px 0 0;
+    float: left;
+}
+.shezhi>div:nth-child(1)>img{
+    width: 120px;
+    height: 158px;
+}
+.shezhi>div:nth-child(1)>span{
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    left: 0;
+    width: 120px;
+    height: 33px;
+    font: 14px/33px "PingFangSC-Regular";
+    text-align: center;
+    color: #999;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+}
+.shezhi1{
+    width: 640px;
+    float: left;
+}
+.shezhi1::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.shezhi1>ul{
+    padding: 0px;
+}
+.shezhi1 li{
+    list-style: none;
+}
+.shezhi2{
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+.shezhi2>em{
+    width: 75px;
+    font: 14px/30px "PingFangSC-Regular";
+    text-align: right;
+    color: #858585;
+    float: left;
+}
+.shezhi1 li:nth-child(1){
+    height: 35px;
+}
+.shezhi1 li:nth-child(2){
+    height: 35px;
+}
+
+.shezhi2>div{
+    float: left;
+    width: 230px!important;
+}
+.shezhi2>div>div{
+    width: 220px;
+}
+.shezhi2>textarea{
+    overflow-y: auto;
+    border: 1px solid #DDD;
+    width: 343px;
+    height: 188px;
+    padding-left: 5px;
+    resize: none;
+    color: #000;
+}
+.shezhi3{
+    text-align:center;
+    float: left;
+    width: 1040px;
+    margin-left: -40px;
+}

@@ -1,0 +1,41 @@
+.liebiao1{
+
+
+    padding-top: 8px;
+}
+.liebiao1::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.liebiao1 img:last-child{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 3px;
+    border: 0px;
+}
+.liebiao1>div>div{
+    width: 5px; 
+    height: 42px;
+    float: right;
+    display: none;
+}
+.liebiao1>span{
+    font-size: 1.1em;
+    line-height: 43px;
+    float: left;
+}
+.liebiao1:hover>div>div{
+    display: block;
+}
+.liebiao1>div{
+    float: left;
+    height: 42px;
+    width: 48px;
+}
+.liebiao1>div::after{
+    clear:both;
+    display: block;
+    content: " ";
+}

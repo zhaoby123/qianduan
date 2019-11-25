@@ -1,0 +1,76 @@
+.header{
+    background-color: rgb(49, 49, 49);
+    margin: 0em;
+    color: rgba(240, 248, 255, 0.911)
+}
+.fix{
+    float: left;
+}
+.fix1{
+    float: right;
+}
+.clearfix::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.zhongjian{
+    float: left;
+}
+.clearfix>.zhongjian::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.header>div{
+    width: 90em;
+    height: 2em;
+
+    margin: 0 auto;
+
+}
+.zhongjian>span:first-child{
+    font-size: 1.2em;
+    padding: 0px 84px;
+    background-color: black;
+    margin: 1px;
+    width: 236px;
+}
+.zhongjian>span:nth-child(2){
+    width: 2em;
+    height: 2em;
+}
+.zuopin{
+    float: left;
+    width: 110px;
+}
+
+.zuopin>a>div:first-child{
+    width: 100%;
+    height: 2px;
+    background-color: crimson;
+    display: none;
+}
+.zuopin:hover>a>div:first-child{
+    display: block;
+}
+.zuopin:hover{
+    background-color: black;
+}
+.juzhong1{
+    margin: 0 auto;
+    width: 78px;
+}
+.juzhong2{
+    margin: 0 auto;
+    width: 39px;
+}
+
+.zuopin a{
+    text-decoration: none;
+    margin: 0 auto;
+    font-size:1.2em;
+}
+.zuopin a:link{color:rgba(240, 248, 255, 0.911)}
+.zuopin a:visited{color:rgba(240, 248, 255, 0.911)}
+.zuopin a:hover{color:rgba(240, 248, 255, 0.911)}

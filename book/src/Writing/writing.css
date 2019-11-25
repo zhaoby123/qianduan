@@ -1,0 +1,20 @@
+.kuang{
+    width: 1041px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+}
+.header1{
+    width: 1041px;
+    margin: 0em auto;
+    border-bottom: 1px solid #DDD;
+}
+.header1 span{
+    font-size: 3em;
+}
+.header1 span:first-child{
+    color: darkgray;
+}
+.header1 span:last-child{
+    color: rgb(67, 140, 236)
+}

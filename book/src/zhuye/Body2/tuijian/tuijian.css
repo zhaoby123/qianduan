@@ -1,0 +1,77 @@
+.tuijian1 div::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.tuijian1{
+    width: 236px;
+    border: 1px solid #ececec;
+    border-top: none;
+}
+.tuijian1 div{
+    float: left;
+}
+
+.tu1{
+    background-size: 100% 100%;
+    width: 67px;
+    height: 100px;
+    float: left;
+}
+
+.tuijian2{
+    width: 139px;
+    margin-left: 25px;
+}
+.ying{
+    display: none;
+    margin-top: 11px;  
+    height: 123px; 
+}
+
+
+.xian>span>div:nth-child(1){
+    background-color: rgb(197, 197, 197);
+    text-align:center;
+    width: 21PX;
+    height: 21px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.xian>div:nth-child(2){
+    font-size: 18px;
+    height: 31px;
+    line-height:31px;
+    margin-left: 15px;
+}
+.tuijian2>div:nth-child(1){
+    margin-right: 50px;
+    height: 21px;
+    background-color: red;
+    color: rgb(207, 207, 207);
+}
+.tuijian2>div:nth-child(2){
+    font-size: 2em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 139px;
+}
+.tuijian2>div:nth-child(3){
+    width: 128px;
+    height: 38px;
+    word-break:break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tuijian1:hover .ying{
+    display: block!important;
+}
+.tuijian1:hover .xian{
+    display: none;
+}
+.tuijian1>a:link{color:black}
+.tuijian1>a:visited{color:black}
+.tuijian1>a:hover{color:rgb(0, 0, 0)}

@@ -1,0 +1,60 @@
+.kuang{
+    height: 162px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.tu{
+    width: 102px;
+    height: 136px;
+    margin-right: 16px;
+    float: left;
+    margin-top: 10px;
+}
+.st{
+    width: 542px;
+    margin-top: 5px;
+    float: left;
+}
+.st>h4{
+    font: 18px/24px'Helvetica Neue Light';
+    overflow: hidden;
+    height: 24px;
+    margin-bottom: 8px;
+}
+.st>p:nth-child(2){
+    line-height: 16px;
+    color: #a6a6a6;
+}
+.st>p:nth-child(2)>em{
+    font-family: Arial;
+    margin: 1px 8px 0;
+    color: #e6e6e6;
+}
+.st>p:nth-child(2)>a{
+    color: #a6a6a6;
+}
+.st>p:nth-child(3){
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+    height: 48px;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.wb{
+    width: 224px;
+    height: 136px;
+    margin-top: 5px;
+    float: right;
+}
+
+.wb button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.wb button:nth-child(1){
+    background-color: red;
+
+    border: red
+}

@@ -1,0 +1,38 @@
+.liebiao{
+    height: 188px;
+    width: 447px;
+    padding-top: 25px;
+    list-style: none outside none;
+    float: left;
+}
+.tu{
+    width: 102px;
+    height: 136px;
+    margin-right: 16px;
+    float: left;
+}
+.liebiao1{
+    width: 314px;
+    margin-top: 5px;
+    float: left;
+}
+.liebiao1>h4{
+    font: 18px/24px'Helvetica Neue Light';
+    overflow: hidden;
+    height: 24px;
+    margin-bottom: 8px;
+}
+.liebiao1>span{
+    color: #a6a6a6;
+    height: 16px;
+    margin-bottom: 6px;
+}
+.liebiao1>p{
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+    height: 70px;
+    margin-bottom: 8px;
+    color: #666;
+    word-break:break-all;
+}

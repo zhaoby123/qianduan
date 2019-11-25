@@ -1,0 +1,72 @@
+.tj{
+    width: 235px;
+    float: left;
+    height: 539px;
+    margin-right: 30px;
+    background-color: #eeeeee;
+    padding: 29px 28px;
+    padding-bottom: 0px;
+}
+.tj:hover{
+    background-color:#d8d0d0f6
+}
+.tu1{
+    width: 180px;
+    height: 240px;
+
+}
+.tm1{
+    line-height: 35px;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #5a5a5a;
+    overflow: hidden;
+    max-height: 70px;
+}
+.tm2{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 8px;
+    color: #5a5a5a;
+}
+.tm2 span:nth-child(1) a{
+    color: #b08751;
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+}
+.tm2>span{
+    color: #b08751;
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.tm2>span:nth-child(1) a:hover{color:rgb(0, 0, 0)}
+.tm2>span:nth-child(3) a:hover{color:rgba(241, 116, 66, 0.884)}
+
+.tm3{
+    line-height: 22px;
+    font-size: 14px;
+    color: #868686;
+    margin-top: 10px;
+    max-height: 44px;
+    word-break:break-all;
+}
+.tm4{
+    width: 132px;
+    height: 38px;
+    background-color: #5a5a5a;
+    display: block;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+}
+.tm4:hover{
+    background-color: rgb(228, 102, 29)
+}
+.tm4>a:link{color:#ffffff}
+.tm4>a:visited{color:#ffffff}

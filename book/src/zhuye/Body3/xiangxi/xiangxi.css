@@ -1,0 +1,48 @@
+.tj{
+    float: left;
+    width: 363px;
+    height: 179.5px;
+    padding: 20.75px;
+    padding-left: 30px;
+    padding-right: 12px;
+    /* overflow: hidden; */
+}
+.tj:hover{
+    border: 1px solid #ececec;
+}
+.tu1{
+    width: 100px;
+    height: 138px;
+    float: left;
+
+}
+.tm1{
+    
+    white-space: normal;
+    margin-top: 25px;
+    margin-left: 17px;
+    font-size: 18px;
+    width: 168px;
+    float: left;
+}
+.tm1>div:first-child{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 168px;
+}
+.tm1>div:nth-child(2){
+    width: 168px;
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.js{
+    margin-top: 10px;
+    word-break:break-all;
+    height: 29px;
+}
+.tj>a:link{color:black}
+.tj>a:visited{color:black}
+.tj>a:hover{color:rgb(250, 121, 46)}

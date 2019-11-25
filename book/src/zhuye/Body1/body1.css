@@ -1,0 +1,48 @@
+.kuang{
+    width: 90em;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.kuang::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.liebiao{
+    width: 236px;
+    float: left;
+}
+.liebiao>dl::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.liebiao dd{
+    width: 118px;
+    height: 60px;
+    float: left;
+    margin: 0;
+}
+.liebiao dd:nth-child(4n+1){
+    background: #f7f6f2;
+}
+.liebiao dd:nth-child(4n+2){
+    background: #f7f6f2;
+}
+
+
+
+.lunbo{
+    width: 1024px;
+    height: 420px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    /* background-color: black; */
+}
+.lunbo1{
+    width: 1014px;
+    height: 410px;
+
+}
+

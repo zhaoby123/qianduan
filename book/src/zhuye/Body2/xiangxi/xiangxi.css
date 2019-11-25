@@ -1,0 +1,29 @@
+.tj{
+    float: left;
+    width: 198px;
+    height: 269.5px;
+    padding: 17.75px 39px;
+    /* overflow: hidden; */
+}
+.tj:hover{
+    border: 1px solid #ececec;
+}
+.tu1{
+    width: 120px;
+    height: 162px;
+}
+.tm1{
+    white-space: normal;
+    max-height: 60px;
+    margin-top: 12px;
+    font-size: 18px;
+    width: 120px;
+    overflow: hidden;
+}
+.js{
+    word-break:break-all;
+    height: 29px;
+}
+.tj>a:link{color:black}
+.tj>a:visited{color:black}
+.tj>a:hover{color:rgb(250, 121, 46)}

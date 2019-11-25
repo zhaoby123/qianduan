@@ -1,0 +1,21 @@
+.kuang{
+    border: 1px solid #DDD;
+    min-height: 800px;
+}
+.tou{
+    border-bottom: 1px solid #E6E6E6;
+    height: 45px;
+    padding-left: 18px;
+    background: #F9F9F9;
+}
+.tou span{
+    float: left;
+    display: inline-block;
+    font: 14px/44px "PingFangSC-Regular";
+    
+}
+.tou em{
+    float: left;
+    width: 35px;
+    height: 45px;
+}

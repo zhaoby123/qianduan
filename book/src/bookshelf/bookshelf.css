@@ -1,0 +1,45 @@
+.da{
+    background: #f7f6f2;
+    height: 845px;
+}
+.kuang{
+    width: 90em;
+    margin: 0 auto;
+
+}
+.tuijian{
+    height: 539px;
+    width: 236px;
+
+    float: right;
+    margin-top: 36px;
+}
+.tuijian div::after{
+    clear:both;
+    display: block;
+    content: " ";
+}
+.tuijian:hover .tuijian1{
+    color: #e7e7e7!important;
+    background-color: rgb(85, 85, 85)!important;
+}
+.tuijian1{
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #e7e7e7;
+    /* padding-left: 13px; */
+    text-align: center
+}
+.tuijian>div:nth-child(2) div>span>div{
+    background-color: rgb(250, 31, 31)!important;
+    color: aliceblue!important;
+}
+.tuijian>div:nth-child(3) div>span>div{
+    background-color: rgb(250, 31, 31)!important;
+    color: aliceblue!important;
+}
+.tuijian>div:nth-child(4) div>span>div{
+    background-color: rgba(199, 196, 13, 0.589)!important;
+    color: aliceblue!important;
+}

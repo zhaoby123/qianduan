@@ -1,0 +1,20 @@
+.kuang{
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.jiemian{
+    width: 994px;
+    float: left;
+}
+.tuijian{
+    width: 236px;
+    float: right;
+}
+.tuijian>h3{
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #666;
+    font-weight: bold;
+}
