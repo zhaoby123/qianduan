@@ -1,8 +1,57 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
 import { Button, Icon } from 'antd';
+import LEdit from 'wangeditor';
 var CaogaoCss = require('./caogao.css');
 export default class Caogao extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            editorContent: ''
+        };
+        this.textAreaValue = this.textAreaValue.bind(this);
+    }
+    componentDidMount() {
+        const elemMenu = this.refs.editorElemMenu;
+        const elemBody = this.refs.editorElemBody;
+        const editor = new LEdit(elemMenu, elemBody)
+
+        editor.customConfig.onchange = html => {
+          
+            this.setState({
+               
+                editorContent: editor.txt.html()
+            })
+        }
+        editor.customConfig.menus = [
+            'head',  
+            'bold',  
+            'fontSize',  
+            'fontName',  
+            'italic',  
+            'underline',  
+            'strikeThrough',  
+            'foreColor',  
+            'backColor',  
+            'link',  
+            'list', 
+            'justify',  
+            'quote', 
+            'emoticon',  
+            'image', 
+            'table',  
+            'video', 
+            'code',  
+            'undo',  
+            'redo' 
+        ]
+        editor.customConfig.uploadImgShowBase64 = true
+        editor.create()
+    };
+    textAreaValue() {
+        console.log('编辑器data：', this.state.editorContent)
+    }
+
     render() {
         return (
             <div className={CaogaoCss.kuang}>
@@ -52,8 +101,24 @@ export default class Caogao extends React.Component {
 
                         </div>
                         <div>
-                            <input placeholder="此处输入章节号与章节名。示例：“第十章 天降奇缘”"/>
-                            <textarea placeholder="请输入正文。"></textarea>
+                            <input placeholder="此处输入章节号与章节名。示例：“第十章 天降奇缘”" />
+                            <div className="text-area" >
+                                <div ref="editorElemMenu"
+                                    style={{ backgroundColor: '#f1f1f1', border: "1px solid #ccc" }}
+                                    className="editorElem-menu">
+                                </div>
+                                <div
+                                    style={{
+                                        padding: "0 10px",
+                                        overflowY: "scroll",
+                                        height: 300,
+                                        border: "1px solid #ccc",
+                                        borderTop: "none"
+                                    }}
+                                    ref="editorElemBody" className="editorElem-body">
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
