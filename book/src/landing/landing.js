@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { labeledStatement } from '@babel/types';
 var LandingCss = require('./landing.css');
 
 // import Register from '../register/register';
@@ -68,24 +69,25 @@ export default class Landing extends React.Component {
                 </div>
                 <div className={LandingCss.body}>
                     <div className={LandingCss.body1}>
-                        <Link to="/">
-                            退出登陆
+                        <div className={LandingCss.back}>
+                        <Link to="/" >
+                            返回首页
                         </Link>
-                        <div>登陆</div>
+                        </div>
+                        <div>登录</div>
                         <div className={LandingCss.body2}>
                             <input type="text" name="username" value={this.state.username} onChange={this.changevalue} placeholder="账号" ></input>
                             <br></br>
                             <input type="password" name="password" value={this.state.password} onChange={this.changevalue} placeholder="密码" ></input>
-
                         </div>
-                        <div className={LandingCss.clearfix}>
-                            <input type="checkbox" className={LandingCss.fix} /><span>记住密码</span>
+                        <div className={LandingCss.clearfix,LandingCss.line}>
+                            <input type="checkbox" className={LandingCss.fix,LandingCss.checboxInput} id="check" /><label id="check">记住密码</label>
                             <Link to="/search" className={LandingCss.fix1}>忘记密码</Link>
                         </div>
                         <div className={LandingCss.body3}>
                             {/* <Link to="/" onClick={this.login}> */}
                             <button onClick={this.login}>
-                                <span>登陆</span>
+                                <span>一键登陆</span>
                             </button>
                             {/* </Link> */}
                             <Link to="/register">

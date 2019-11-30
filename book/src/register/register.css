@@ -1,18 +1,17 @@
 .background{
     background:url("/img/1.jpg")no-repeat;
     background-size: 100% 100%;
-    height: 872px;
+    height: 750px;
     margin: 0em;
 }
 .header{
-    width: 1899px;
+    width: 100%;
     margin:0em;
     border-bottom:1px solid rgb(173, 173, 173);
 }
 .header1{
     width: 90em;
     margin: 0em auto;
-    
 }
 .header1 span{
     font-size: 3em;
@@ -24,10 +23,14 @@
     color: rgb(67, 140, 236)
 }
 .body{
-    width: 1899px;
+    
+    width: 100%;
     margin:0em;
 }
 .body1{
+    position: relative;
+    top: -40px;
+    left: 450px;
     width: 25em;
     height: 26em;
     margin: 0em auto;
@@ -76,6 +79,8 @@ a:hover{color:rgb(255, 72, 47)}
 }
 
 .body3{
+    position: relative;
+    top: 5px;
     padding-top: 1em;
     margin: 0 auto;
     width: 21em;
@@ -90,4 +95,34 @@ a:hover{color:rgb(255, 72, 47)}
 
 .body3 span{
     font-size: 1.5em;
+}
+
+.back1{
+    float: left;
+    text-align: center;
+    border-radius: 1.5rem;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    cursor: pointer;
+}
+.back2{
+    float: right;
+    text-align: center;
+    border-radius: 1.5rem;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    cursor: pointer;
+}
+.canvas{
+    position: relative;
+    margin: 2px;
+    top: 8px;
+    width: 120px;
+    height: 30px;
 }

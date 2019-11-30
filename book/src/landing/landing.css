@@ -1,11 +1,11 @@
 .background{
     background:url("/img/1.jpg")no-repeat;
     background-size: 100% 100%;
-    height: 892px;
+    height: 750px;
     margin: 0em;
 }
 .header{
-    width: 1899px;
+    width: 100%;
     margin:0em;
     border-bottom:1px solid rgb(173, 173, 173);
 }
@@ -24,10 +24,13 @@
     color: rgb(67, 140, 236)
 }
 .body{
-    width: 1899px;
+    width: 100%;
     margin:0em;
 }
 .body1{
+    position: relative;
+    top: -40px;
+    left: 450px;
     width: 25em;
     height: 26em;
     margin: 0em auto;
@@ -93,8 +96,33 @@
     background-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .body3 span{
     font-size: 1.5em;
+}
+
+.checboxInput{
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.line{
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+.back{
+    position: relative;
+    left: 260px;
+    text-align: center;
+    border-radius: 1.5rem;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    cursor: pointer;
 }
