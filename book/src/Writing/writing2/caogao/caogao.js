@@ -7,19 +7,16 @@ export default class Caogao extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            editorContent: ''
-        };
-        this.textAreaValue = this.textAreaValue.bind(this);
+            editorContent:''
+         };
+         this.textAreaValue=this.textAreaValue.bind(this);
     }
     componentDidMount() {
         const elemMenu = this.refs.editorElemMenu;
         const elemBody = this.refs.editorElemBody;
         const editor = new LEdit(elemMenu, elemBody)
-
         editor.customConfig.onchange = html => {
-          
             this.setState({
-               
                 editorContent: editor.txt.html()
             })
         }
@@ -28,27 +25,27 @@ export default class Caogao extends React.Component {
             'bold',  
             'fontSize',  
             'fontName',  
-            'italic',  
+            'italic', 
             'underline',  
-            'strikeThrough',  
+            'strikeThrough', 
             'foreColor',  
             'backColor',  
             'link',  
-            'list', 
+            'list',  
             'justify',  
-            'quote', 
+            'quote',  
             'emoticon',  
-            'image', 
+            'image',  
             'table',  
-            'video', 
+            'video',  
             'code',  
             'undo',  
-            'redo' 
+            'redo'  
         ]
         editor.customConfig.uploadImgShowBase64 = true
         editor.create()
     };
-    textAreaValue() {
+    textAreaValue () {
         console.log('编辑器data：', this.state.editorContent)
     }
 
@@ -102,23 +99,26 @@ export default class Caogao extends React.Component {
                         </div>
                         <div>
                             <input placeholder="此处输入章节号与章节名。示例：“第十章 天降奇缘”" />
-                            <div className="text-area" >
-                                <div ref="editorElemMenu"
-                                    style={{ backgroundColor: '#f1f1f1', border: "1px solid #ccc" }}
-                                    className="editorElem-menu">
-                                </div>
-                                <div
-                                    style={{
-                                        padding: "0 10px",
-                                        overflowY: "scroll",
-                                        height: 300,
-                                        border: "1px solid #ccc",
-                                        borderTop: "none"
-                                    }}
-                                    ref="editorElemBody" className="editorElem-body">
+                            <div className="shop">
+                <div className="text-area" >
+                    <div ref="editorElemMenu"
+                         style={{backgroundColor:'#f1f1f1',border:"1px solid #ccc"}}
+                         className="editorElem-menu">
+                    </div>
+                    <div
+                        style={{
+                            padding:"0 10px",
+                            overflowY:"scroll",
+                            height:300,
+                            border:"1px solid #ccc",
+                            borderTop:"none"
+                        }}
+                        ref="editorElemBody" className="editorElem-body">
 
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div onClick={this.textAreaValue}>点击我获取值啊</div>
+            </div>
                         </div>
                     </div>
                 </div>

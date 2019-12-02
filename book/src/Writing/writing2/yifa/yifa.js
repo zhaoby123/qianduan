@@ -22,15 +22,15 @@ export default class Yifa extends React.Component {
         }
         editor.customConfig.menus = [
             'head',  
-            'bold', 
+            'bold',  
             'fontSize',  
             'fontName',  
             'italic',  
             'underline', 
-            'strikeThrough',  
+            'strikeThrough', 
             'foreColor',  
             'backColor',  
-            'link', 
+            'link',  
             'list',  
             'justify',  
             'quote',  
@@ -38,7 +38,7 @@ export default class Yifa extends React.Component {
             'image',  
             'table',  
             'video',  
-            'code', 
+            'code',  
             'undo',  
             'redo'  
         ]
@@ -99,22 +99,25 @@ export default class Yifa extends React.Component {
                         </div>
                         <div>
                             <input placeholder="此处输入章节号与章节名。示例：“第十章 天降奇缘”" />
-                            <div className="text-area" >
-                                <div ref="editorElemMenu"
-                                    style={{ backgroundColor: '#f1f1f1', border: "1px solid #ccc" }}
-                                    className="editorElem-menu">
-                                </div>
-                                <div
-                                    style={{
-                                        padding: "0 10px",
-                                        overflowY: "scroll",
-                                        height: 300,
-                                        border: "1px solid #ccc",
-                                        borderTop: "none"
-                                    }}
-                                    ref="editorElemBody" className="editorElem-body">
+                            <div className="shop">
+                                <div className="text-area" >
+                                    <div ref="editorElemMenu"
+                                        style={{ backgroundColor: '#f1f1f1', border: "1px solid #ccc" }}
+                                        className="editorElem-menu">
+                                    </div>
+                                    <div
+                                        style={{
+                                            padding: "0 10px",
+                                            overflowY: "scroll",
+                                            height: 300,
+                                            border: "1px solid #ccc",
+                                            borderTop: "none"
+                                        }}
+                                        ref="editorElemBody" className="editorElem-body">
 
+                                    </div>
                                 </div>
+                                <div onClick={this.textAreaValue}>点击我获取值啊</div>
                             </div>
                         </div>
                     </div>
