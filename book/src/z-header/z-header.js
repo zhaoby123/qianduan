@@ -16,11 +16,11 @@ export default class ZHeader extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            ming : window.localStorage.getItem("m1")
+            ming : window.localStorage.getItem("usernumber")
         }
     }
     logout = e=>{
-        window.localStorage.removeItem("m1")
+        window.localStorage.removeItem("usernumber")
         this.setState({
             ming:null
         })

@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import { Drawer, Button, Icon } from 'antd';
 
 var KanCss = require('./kan.css')
-
-
-
-
-
 export default class Kan extends React.Component {
     state = { visible: false };
 
@@ -268,6 +263,8 @@ export default class Kan extends React.Component {
                         <Link>上一章</Link>
                         <span></span>
                         <Link>目录</Link>
+                        <span></span>
+                        <Link to="/comment">评论</Link>
                         <span></span>
                         <Link>下一章</Link>      
                     </div>

@@ -1,62 +1,45 @@
 import React from 'react';
+import { message } from 'antd'
 import { Link } from 'react-router-dom';
-import { labeledStatement } from '@babel/types';
 var LandingCss = require('./landing.css');
 
-// import Register from '../register/register';
-
 export default class Landing extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            username: '',
-            password: ''
-        }
-
+    constructor(props){
+        super(props);
+        this.state={}
     }
-    chuchun() {
-        let n = [{
-            un: '123',
-            pw: '123',
-            m: '1',
-            m1: '张三'
-        }, {
-            un: '456',
-            pw: '123',
-            m: '2',
-            m1: '李四'
-        }, {
-            un: '789',
-            pw: '123',
-            m: '3',
-            m1: '王麻子'
-        }]
-        return n
 
-    }
     changevalue = e => {
         this.setState({
             [e.target.name]: e.target.value
         })
     }
 
-    login = e => {
-        let userList = this.chuchun();
-        let s=0;
-        for (let i = 0; i < userList.length; i++) {
-            
-            if (this.state.username === userList[i].un && this.state.password === userList[i].pw) {
-                
-                window.localStorage.setItem('m1',userList[i].m1);
-                s=s+1;
-                //跳转页面
-                this.props.history.push('/homepage');
-            }
-            }
-            if (s===0) {
-                alert('登陆失败');
+    upload = () => {
+        var data = {
+          "usernumber": this.state.username,
+          "password": this.state.password
         }
-    }
+        fetch("/user/landings", {
+          method: "post",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(data)
+        }).then(response => response.json())
+          .then(result => {
+            if (result.state == 0) {
+              message.info("登陆成功")
+              window.localStorage.setItem('usernumber',this.state.username);
+              this.props.history.push('/homepage');
+            } else if (result.state == 1) {
+              message.info("密码错误")
+            }else if (result.state == 2) {
+                message.info("用户名不存在")
+              }
+          })
+      }
+    
     render() {
         return (
             <div className={LandingCss.background}>
@@ -76,20 +59,20 @@ export default class Landing extends React.Component {
                         </div>
                         <div>登录</div>
                         <div className={LandingCss.body2}>
-                            <input type="text" name="username" value={this.state.username} onChange={this.changevalue} placeholder="账号" ></input>
+                            <input type="text" name="username" value={this.state.username} onChange={this.changevalue} placeholder="请输入您的手机号" ></input>
                             <br></br>
-                            <input type="password" name="password" value={this.state.password} onChange={this.changevalue} placeholder="密码" ></input>
+                            <input type="password" name="password" value={this.state.password} onChange={this.changevalue} placeholder="请输入您的密码" ></input>
                         </div>
                         <div className={LandingCss.clearfix,LandingCss.line}>
                             <input type="checkbox" className={LandingCss.fix,LandingCss.checboxInput} id="check" /><label id="check">记住密码</label>
                             <Link to="/search" className={LandingCss.fix1}>忘记密码</Link>
                         </div>
                         <div className={LandingCss.body3}>
-                            {/* <Link to="/" onClick={this.login}> */}
-                            <button onClick={this.login}>
+
+                            <button onClick={this.upload}>
                                 <span>一键登陆</span>
                             </button>
-                            {/* </Link> */}
+
                             <Link to="/register">
                                 <button>
                                     <span>免费注册</span>

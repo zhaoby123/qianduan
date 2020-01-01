@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
-import { Button } from 'antd';
+import { Button, Rate, Tag } from 'antd';
 
 var XiaoshuoCss = require('./xiaoshuo.css')
 
 export default class Xiaoshuo extends React.Component {
     constructor(props) {
-        super(props);}
+        super(props);
+    }
     render() {
         console.log(this.props.location.state)
         return (
@@ -32,7 +33,7 @@ export default class Xiaoshuo extends React.Component {
                                         pathname: "/homepage/fenlei"
                                     }}>
                                         {this.props.location.state.fl}
-                                        </Link>
+                                    </Link>
                                 </span>
 
                             </p>
@@ -40,6 +41,21 @@ export default class Xiaoshuo extends React.Component {
                                 <p>作品简介：</p>
                                 {this.props.location.state.js}
                             </p>
+                            <p>
+                                <p>作品评分：</p><Rate allowHalf defaultValue={2.5} />
+                            </p>
+                            <div>
+                                <h4 style={{ marginBottom: 16 }}>相关标签:</h4>
+                                <div>
+                                    <Tag color="magenta" >女神榜</Tag>
+                                    <Tag color="red">热榜</Tag>
+                                    <Tag color="volcano">男神榜</Tag>
+                                    <Tag color="orange">orange</Tag>
+                                    <Tag color="gold">周年榜</Tag>
+                                    <Tag color="green">精品</Tag>
+                                </div>
+                            </div>
+
 
                         </div>
                         <div className={XiaoshuoCss.tk2}>
@@ -55,7 +71,7 @@ export default class Xiaoshuo extends React.Component {
                             </Link>
                             <p>
                                 {/* <Link> */}
-                                    <Button>加入书架</Button>
+                                <Button>加入书架</Button>
                                 {/* </Link> */}
                                 <Button>力推此书</Button>
                             </p>

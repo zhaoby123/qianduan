@@ -18,55 +18,55 @@ export default class Sousuo1 extends React.Component {
             img: "/img/小说1/2.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "地球超能",
             img: "/img/小说1/3.jfif",
             zz:"xxxx",
             fl:"都市",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "斗罗大陆",
             img: "/img/小说1/4.jfif",
             zz:"唐家三少",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "将夜",
             img: "/img/小说1/5.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "武极天下",
             img: "/img/小说1/6.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "角临",
             img: "/img/小说1/7.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "史上最牛宗门",
             img: "/img/小说1/8.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "美漫世界当宅男",
             img: "/img/小说1/9.jfif",
             zz:"xxxx",
             fl:"奇幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },{
             tm: "妖界",
             img: "/img/小说1/10.jpg",
             zz:"木子摇",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"如果牧尘是顺利的通过了那“灵路”的历练，获得进入“五大院”的资格，那名气自然是能够压过柳慕白，但可惜的是，他不知道怎么回事竟然被驱逐出来了。"
         },]
         return wanebnList
     }

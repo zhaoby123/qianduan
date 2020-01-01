@@ -1,7 +1,7 @@
 .lb{
     width: 60px;
     height: 120px;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
     z-index: 5;
     top: 1px;
@@ -32,8 +32,8 @@
 .zwk{
     width: 800px;
     margin: 0 auto;
-    background-color: antiquewhite;
-    border: 1px solid #d8d8d8;
+    background-color: white;
+    border: 1px solid black;
     opacity:1;
     position:relative;
     z-index: 5;
@@ -56,7 +56,7 @@
     width: 800px;
     height: 72px;
     text-align: center;
-    border-top: 1px solid #d8d8d8;
+    border-top: 1px solid white;
 }
 .dibu a{
     display: inline-block;
@@ -68,6 +68,6 @@
     height: 32px;
     width: 1px;
     font-size: 15px;
-    background-color: #d8d8d8;
+    background-color: white;
     margin-bottom: -11px;
 }

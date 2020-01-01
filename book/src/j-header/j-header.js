@@ -10,7 +10,35 @@ import Fenlei3 from '../fenlei/fenlei3';
 var JHeaderCss = require('./j-header.css')
 
 export default class JHeader extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={
+            news:[
+                {
+
+                }
+            ]
+        }
+    }
+
+    handle_click = ()=>{
+        let t = this;
+        fetch("/Classification/Xh", {method: 'post'}).then(
+            function (res) {
+                console.log(res);
+                res.json().then(function (data) {
+                    console.log(data);
+   
+                        t.setState({
+                            news:data
+                        });
+                        
+                    }
+                )
+            });
+    };
     render() {
+        
         return (
             <div>
                 <div className={JHeaderCss.header}>
@@ -37,16 +65,14 @@ export default class JHeader extends React.Component {
 
                                 <Link to="/homepage/fenlei3">
                                     <div className={JHeaderCss.fix}></div>
-                                    <div><div className={JHeaderCss.juzhong2}>完本</div></div>
+                                    <div><div className={JHeaderCss.juzhong2} onClick={this.handle_click}>完本</div></div>
                                 </Link>
-
                             </div>
-
-
                         </div>
                         <div className={JHeaderCss.fix1}>
                         </div>
                     </div>
+                    
                 </div>
                 <Switch>
                     <Route path="/homepage" exact component={Body}></Route>

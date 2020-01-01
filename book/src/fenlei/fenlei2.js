@@ -76,61 +76,61 @@ export default class Fenlei2 extends React.Component {
             img: "/img/小说1/11.jpg",
             zz:"xxx",
             fl:"玄幻",
-            js:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。"
+            js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
         },{
             tm: "我的1979",
             img: "/img/小说1/12.jpg",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
         },{
             tm: "武极天下",
             img: "/img/小说1/6.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "史上最牛宗门",
             img: "/img/小说1/8.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "美漫世界当宅男",
             img: "/img/小说1/9.jfif",
             zz:"xxxx",
             fl:"奇幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "地球超能",
             img: "/img/小说1/3.jfif",
             zz:"xxxx",
             fl:"都市",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "斗罗大陆",
             img: "/img/小说1/4.jfif",
             zz:"唐家三少",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "将夜",
             img: "/img/小说1/5.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "角临",
             img: "/img/小说1/7.jfif",
             zz:"xxxx",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "妖界",
             img: "/img/小说1/10.jpg",
             zz:"木子摇",
             fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },]
         return wanebnList
     }

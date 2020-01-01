@@ -9,6 +9,7 @@ import Register from './register/register';
 import Search from './Search/search';
 import Xiaoshuo from './xiaoshuo/xiaoshuo';
 import Kan from './kan/kan';
+import comment from './comment/comment';
 import Writing from './Writing/writing';
 
 class IndexPage extends React.Component {
@@ -24,6 +25,7 @@ class IndexPage extends React.Component {
                         <Route path="/register" component={Register}></Route>
                         <Route path="/search" component={Search}></Route>
                         <Route path="/kan" component={Kan}></Route>
+                        <Route path="/comment" component={comment}></Route>
                         <Route path="/writing" component={Writing}></Route>
                         <Redirect to="/homepage"></Redirect>
                     </Switch>

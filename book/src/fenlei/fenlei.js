@@ -1,15 +1,19 @@
 import React from 'react';
 import Tubiao from '../zhuye/Body1/tubiao/tubiao'
 import Wanben from './wanben/wanben'
+import { message } from 'antd'
 
 var FenleiCss = require('./fenlei.css');
 
 
-
-
 export default class Fenlei extends React.Component {
     constructor(props) {
-        super(props);}
+        super(props);
+        this.state={
+
+        }
+    }
+    
     getProductList() {
         let dateList = [{
             name: "玄幻",
@@ -70,72 +74,75 @@ export default class Fenlei extends React.Component {
         }]
         return dateList
     }
-    getWanbenList() {
-        let wanebnList = [{
-            tm: "大主宰",
-            img: "/img/小说1/1.jfif",
-            zz:"天蚕土豆",
-            fl:"玄幻",
-            js:"大千世界，位面交汇，万族林立，群雄荟萃，一位位来自下位面的天之至尊，在这无尽世界，演绎着令人向往的传奇，追求着那主宰之路。"
-        },{
-            tm: "一世剑宗",
-            img: "/img/小说1/2.jfif",
-            zz:"xxxx",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "地球超能",
-            img: "/img/小说1/3.jfif",
-            zz:"xxxx",
-            fl:"都市",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "斗罗大陆",
-            img: "/img/小说1/4.jfif",
-            zz:"唐家三少",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "将夜",
-            img: "/img/小说1/5.jfif",
-            zz:"xxxx",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "武极天下",
-            img: "/img/小说1/6.jfif",
-            zz:"xxxx",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "角临",
-            img: "/img/小说1/7.jfif",
-            zz:"xxxx",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "史上最牛宗门",
-            img: "/img/小说1/8.jfif",
-            zz:"xxxx",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "美漫世界当宅男",
-            img: "/img/小说1/9.jfif",
-            zz:"xxxx",
-            fl:"奇幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },{
-            tm: "妖界",
-            img: "/img/小说1/10.jpg",
-            zz:"木子摇",
-            fl:"玄幻",
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        },]
-        return wanebnList
-    }
+    // getWanbenList() {
+    //     let wanebnList = [{
+    //         tm: "大主宰",
+    //         img: "/img/小说1/1.jfif",
+    //         zz:"天蚕土豆",
+    //         fl:"玄幻",
+    //         js:"大千世界，位面交汇，万族林立，群雄荟萃，一位位来自下位面的天之至尊，在这无尽世界，演绎着令人向往的传奇，追求着那主宰之路。"
+    //     },{
+    //         tm: "一世剑宗",
+    //         img: "/img/小说1/2.jfif",
+    //         zz:"xxxx",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "地球超能",
+    //         img: "/img/小说1/3.jfif",
+    //         zz:"xxxx",
+    //         fl:"都市",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "斗罗大陆",
+    //         img: "/img/小说1/4.jfif",
+    //         zz:"唐家三少",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "将夜",
+    //         img: "/img/小说1/5.jfif",
+    //         zz:"xxxx",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "武极天下",
+    //         img: "/img/小说1/6.jfif",
+    //         zz:"xxxx",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "角临",
+    //         img: "/img/小说1/7.jfif",
+    //         zz:"xxxx",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "史上最牛宗门",
+    //         img: "/img/小说1/8.jfif",
+    //         zz:"xxxx",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "美漫世界当宅男",
+    //         img: "/img/小说1/9.jfif",
+    //         zz:"xxxx",
+    //         fl:"奇幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },{
+    //         tm: "妖界",
+    //         img: "/img/小说1/10.jpg",
+    //         zz:"木子摇",
+    //         fl:"玄幻",
+    //         js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
+    //     },]
+    //     return wanebnList
+    // }
+
+    
   
     render(){
+       
         console.log(this.props.location.state)
         let dateList = this.getProductList();
         let ProductList = dateList.map((item, i) => (
@@ -146,12 +153,13 @@ export default class Fenlei extends React.Component {
             <Wanben product={item}></Wanben>
         ))
         return(
+            
             <div>
                  <div className={FenleiCss.kuang}>
                     <div className={FenleiCss.liebiao}>
                         <dl>
                             {ProductList}  
-                        </dl>
+                        </dl>   
                     </div>
                     <div className={FenleiCss.z}>
                         {WanbenList}

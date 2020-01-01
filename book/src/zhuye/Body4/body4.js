@@ -12,7 +12,7 @@ export default class Body4 extends React.Component {
             tm: "青春有泪",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 1
         }, {
             img: "/img/小说/2.jpg",
@@ -20,7 +20,7 @@ export default class Body4 extends React.Component {
             tm: "L'ESPERIT del LLOP",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 2
         }, {
             img: "/img/小说/3.jpg",
@@ -28,7 +28,7 @@ export default class Body4 extends React.Component {
             tm: "三里湾",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 3
         }, {
             img: "/img/小说/4.jpg",
@@ -36,7 +36,7 @@ export default class Body4 extends React.Component {
             tm: "夜倾天下·帝妃太嚣张",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 4
         }, {
             img: "/img/小说/5.jpg",
@@ -44,7 +44,7 @@ export default class Body4 extends React.Component {
             tm: "蜀秀",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 5
         }, {
             img: "/img/小说/6.jpg",
@@ -52,7 +52,7 @@ export default class Body4 extends React.Component {
             tm: "愿我们终会与幸福相见",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 6
         }, {
             img: "/img/小说/7.jpg",
@@ -60,7 +60,7 @@ export default class Body4 extends React.Component {
             tm: "情来缘浅",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 7
         }, {
             img: "/img/小说/8.jpg",
@@ -68,7 +68,7 @@ export default class Body4 extends React.Component {
             tm: "白夜行",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 8
         }, {
             img: "/img/小说/9.jpg",
@@ -76,7 +76,7 @@ export default class Body4 extends React.Component {
             tm: "那些年被我们搁浅的伤",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 9
         }, {
             img: "/img/小说/10.jpg",
@@ -84,7 +84,7 @@ export default class Body4 extends React.Component {
             tm: "那年风吹柳絮",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 10
         }, {
             img: "/img/小说/11.jpg",
@@ -92,7 +92,7 @@ export default class Body4 extends React.Component {
             tm: "恋花",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 11
         }, {
             img: "/img/小说/12.jpg",
@@ -100,7 +100,7 @@ export default class Body4 extends React.Component {
             tm: "青谷子",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”",
             pm1: 12
         }]
         return dateList
@@ -111,61 +111,61 @@ export default class Body4 extends React.Component {
             tm: "青春有泪",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/2.jpg",
             tm: "L'ESPERIT del LLOP",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/3.jpg",
             tm: "三里湾",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/4.jpg",
             tm: "夜倾天下·帝妃太嚣张",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/5.jpg",
             tm: "蜀秀",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/6.jpg",
             tm: "愿我们终会与幸福相见",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/7.jpg",
             tm: "情来缘浅",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/8.jpg",
             tm: "白夜行",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/9.jpg",
             tm: "那些年被我们搁浅的伤",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }, {
             img: "/img/小说/10.jpg",
             tm: "那年风吹柳絮",
             zz: "xxx",
             fl: "轻小说",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js: "“呵呵，现在的东院真是越来越得瑟了，以为出了一个牧尘就真能跟我们西院叫板不成？”"
         }]
         return xiangxiList
     }

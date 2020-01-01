@@ -21,7 +21,7 @@ export default class Body2 extends React.Component {
             fl: "仙侠",
             pm: "NO.2",
             pm1: 2,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。"
         },{
             tm: "地球超能",
             img: "/img/小说1/3.jfif",
@@ -29,7 +29,7 @@ export default class Body2 extends React.Component {
             fl: "都市",
             pm: "NO.3",
             pm1: 3,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。"
         },{
             tm: "斗罗大陆",
             img: "/img/小说1/4.jfif",
@@ -37,7 +37,7 @@ export default class Body2 extends React.Component {
             fl: "玄幻",
             pm: "NO.4",
             pm1: 4,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。"
         },{
             tm: "将夜",
             img: "/img/小说1/5.jfif",
@@ -45,12 +45,12 @@ export default class Body2 extends React.Component {
             fl: "玄幻",
             pm: "NO.5",
             pm1: 5,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。"
         }, {
             img: "/img/小说/6.jpg",
             pm: "NO.6",
             tm: "愿我们终会与幸福相见",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 6,
             fl: "言情",
             zz:"xxx"
@@ -58,7 +58,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/7.jpg",
             pm: "NO.7",
             tm: "情来缘浅",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 7,
             fl: "言情",
             zz:"xxx"
@@ -66,7 +66,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/8.jpg",
             pm: "NO.8",
             tm: "白夜行",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 8,
             fl: "言情",
             zz:"xxx"
@@ -74,7 +74,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/9.jpg",
             pm: "NO.9",
             tm: "那些年被我们搁浅的伤",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 9,
             fl: "悬疑灵异",
             zz:"xxx"
@@ -82,7 +82,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/10.jpg",
             pm: "NO.10",
             tm: "那年风吹柳絮",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 10,
             fl: "言情",
             zz:"xxx"
@@ -90,7 +90,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/11.jpg",
             pm: "NO.11",
             tm: "恋花",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 11,
             fl: "言情",
             zz:"xxx"
@@ -98,7 +98,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/12.jpg",
             pm: "NO.12",
             tm: "青谷子",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "不论从样貌还是实力或者背景来说，这都是一个在北灵院中随时能够引来一些少女发花痴的名字。",
             pm1: 12,
             fl: "言情",
             zz:"xxx"
@@ -121,7 +121,7 @@ export default class Body2 extends React.Component {
             fl: "仙侠",
             pm: "NO.2",
             pm1: 2,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"在这群人当中，有着一名红衣女孩，她身段修长，肌肤如雪，一张美丽的瓜子脸颊看上去显得有些妩媚，她慵懒的斜靠着栏杆，狭长的美目望向空地上的对恃，然后目光停留在那名为牧尘的少年身上，似是饶有兴致。"
         },{
             tm: "地球超能",
             img: "/img/小说1/3.jfif",
@@ -129,7 +129,7 @@ export default class Body2 extends React.Component {
             fl: "都市",
             pm: "NO.3",
             pm1: 3,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"在这群人当中，有着一名红衣女孩，她身段修长，肌肤如雪，一张美丽的瓜子脸颊看上去显得有些妩媚，她慵懒的斜靠着栏杆，狭长的美目望向空地上的对恃，然后目光停留在那名为牧尘的少年身上，似是饶有兴致。"
         },{
             tm: "斗罗大陆",
             img: "/img/小说1/4.jfif",
@@ -137,7 +137,7 @@ export default class Body2 extends React.Component {
             fl: "玄幻",
             pm: "NO.4",
             pm1: 4,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"在这群人当中，有着一名红衣女孩，她身段修长，肌肤如雪，一张美丽的瓜子脸颊看上去显得有些妩媚，她慵懒的斜靠着栏杆，狭长的美目望向空地上的对恃，然后目光停留在那名为牧尘的少年身上，似是饶有兴致。"
         },{
             tm: "将夜",
             img: "/img/小说1/5.jfif",
@@ -145,12 +145,12 @@ export default class Body2 extends React.Component {
             fl: "玄幻",
             pm: "NO.5",
             pm1: 5,
-            js:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            js:"在这群人当中，有着一名红衣女孩，她身段修长，肌肤如雪，一张美丽的瓜子脸颊看上去显得有些妩媚，她慵懒的斜靠着栏杆，狭长的美目望向空地上的对恃，然后目光停留在那名为牧尘的少年身上，似是饶有兴致。"
         }, {
             img: "/img/小说/6.jpg",
             pm: "NO.6",
             tm: "愿我们终会与幸福相见",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。",
             pm1: 6,
             fl: "言情",
             zz:"xxx"
@@ -158,7 +158,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/7.jpg",
             pm: "NO.7",
             tm: "情来缘浅",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。",
             pm1: 7,
             fl: "言情",
             zz:"xxx"
@@ -166,7 +166,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/8.jpg",
             pm: "NO.8",
             tm: "白夜行",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。",
             pm1: 8,
             fl: "言情",
             zz:"xxx"
@@ -174,7 +174,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/9.jpg",
             pm: "NO.9",
             tm: "那些年被我们搁浅的伤",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。",
             pm1: 9,
             fl: "悬疑灵异",
             zz:"xxx"
@@ -182,7 +182,7 @@ export default class Body2 extends React.Component {
             img: "/img/小说/10.jpg",
             pm: "NO.10",
             tm: "那年风吹柳絮",
-            js: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            js: "而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。",
             pm1: 10,
             fl: "言情",
             zz:"xxx"

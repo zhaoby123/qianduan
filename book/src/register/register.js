@@ -1,7 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button, message, Input } from 'antd'
+import { Modal, Button, message, Input } from 'antd'
 var RegisterCss = require('./register.css')
+const { confirm } = Modal;
+function showConfirm() {
+  confirm({
+    title: '您是否想成为本站的签约作家?',
+    content: '点此OK就代表您已同意本站的入驻作家协议',
+    onOk() {
+      return new Promise((resolve, reject) => {
+        setTimeout(Math.random() > 0.5 ? resolve : reject, 1000);
+      }).catch(() => console.log('Oops errors!'));
+    },
+    onCancel() { },
+  });
+}
 export default class Register extends React.Component {
   constructor(props) {
     super(props);
@@ -30,13 +43,13 @@ export default class Register extends React.Component {
       },
       body: JSON.stringify(data)
     }).then(response => response.json())
-    .then(result=>{
-      if (result.state == 2) {
-        message.info("用户名已存在")
-      } else if (result.state == 1) {
-        message.info("注册成功")
-      }
-    }) 
+      .then(result => {
+        if (result.state == 2) {
+          message.info("用户名已存在")
+        } else if (result.state == 1) {
+          message.info("注册成功")
+        }
+      })
   }
 
   render() {
@@ -65,9 +78,8 @@ export default class Register extends React.Component {
               <Input type="Password" name="Password" placeholder="请输入密码" value={this.state.Password} onChange={e => this.changeValue(e)}></Input>
               <Input type="Password" name="CertainPassword" placeholder="请再次输入您的密码" value={this.state.CertainPassword} onChange={e => this.changeValue(e)}></Input>
               <Input type="text" name="email" placeholder="请输入您的邮箱" value={this.state.email} onChange={e => this.changeValue(e)}></Input>
-              <Button className={RegisterCss.author}>成为签约作家</Button>
+              <Button className={RegisterCss.author} onClick={showConfirm}>成为签约作家</Button>
             </div>
-
             <div className={RegisterCss.body3}>
               {/* <Link to="/landing"> */}
               <button onClick={this.upload()}>
@@ -82,9 +94,3 @@ export default class Register extends React.Component {
   }
 
 }
-<<<<<<< HEAD
-Register.propTypes = {
-    onRef: PropTypes.func
-};
-=======
->>>>>>> upload_admin549frontend
