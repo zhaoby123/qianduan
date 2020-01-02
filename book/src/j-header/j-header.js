@@ -21,9 +21,41 @@ export default class JHeader extends React.Component {
         }
     }
 
-    handle_click = ()=>{
+    wb = ()=>{
         let t = this;
-        fetch("/Classification/Xh", {method: 'post'}).then(
+        fetch("/Sieve/Wb", {method: 'post'}).then(
+            function (res) {
+                console.log(res);
+                res.json().then(function (data) {
+                    console.log(data);
+   
+                        t.setState({
+                            news:data
+                        });
+                        
+                    }
+                )
+            });
+    };
+    qbzp = ()=>{
+        let t = this;
+        fetch("/Sieve/Qbzp", {method: 'post'}).then(
+            function (res) {
+                console.log(res);
+                res.json().then(function (data) {
+                    console.log(data);
+   
+                        t.setState({
+                            news:data
+                        });
+                        
+                    }
+                )
+            });
+    };
+    ph = ()=>{
+        let t = this;
+        fetch("/Sieve/Ph", {method: 'post'}).then(
             function (res) {
                 console.log(res);
                 res.json().then(function (data) {
@@ -49,7 +81,7 @@ export default class JHeader extends React.Component {
                             <div className={JHeaderCss.zuopin}>
                                 <Link to="/homepage/fenlei">
                                     <div className={JHeaderCss.fix}></div>
-                                    <div><div className={JHeaderCss.juzhong1}>全部作品</div></div>
+                                    <div><div className={JHeaderCss.juzhong1} onClick={this.qbzp}>全部作品</div></div>
                                 </Link>
                             </div>
 
@@ -57,7 +89,7 @@ export default class JHeader extends React.Component {
                             <div className={JHeaderCss.zuopin}>
                                 <Link to="/homepage/fenlei">
                                     <div className={JHeaderCss.fix}></div>
-                                    <div><div className={JHeaderCss.juzhong2}>排行</div></div>
+                                    <div><div className={JHeaderCss.juzhong2} onClick={this.ph}>排行</div></div>
                                 </Link>
                             </div>
 
@@ -65,7 +97,7 @@ export default class JHeader extends React.Component {
 
                                 <Link to="/homepage/fenlei3">
                                     <div className={JHeaderCss.fix}></div>
-                                    <div><div className={JHeaderCss.juzhong2} onClick={this.handle_click}>完本</div></div>
+                                    <div><div className={JHeaderCss.juzhong2} onClick={this.wb}>完本</div></div>
                                 </Link>
                             </div>
                         </div>

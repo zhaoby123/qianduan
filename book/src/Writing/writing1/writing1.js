@@ -25,7 +25,7 @@ export default class Writing1 extends React.Component {
 
                             </th>
                             <th>
-                                <img src="/img/小说1/21.png" />
+                                <img src="/img/no1/21.png" />
                                 <span>取名要头炸</span>
                             </th>
                             <th>

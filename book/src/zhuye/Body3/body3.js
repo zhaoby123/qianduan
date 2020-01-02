@@ -9,7 +9,7 @@ export default class Body2 extends React.Component {
     getProductList() {
         let dateList = [{
             tm: "大主宰",
-            img: "/img/小说1/1.jfif",
+            img: "/img/no1/1.jfif",
             fl: "玄幻",
             zz:"天蚕土豆",
             pm:"NO.1",
@@ -17,7 +17,7 @@ export default class Body2 extends React.Component {
             js:"大千世界，位面交汇，万族林立，群雄荟萃，一位位来自下位面的天之至尊，在这无尽世界，演绎着令人向往的传奇，追求着那主宰之路。"
         },{
             tm: "一世剑宗",
-            img: "/img/小说1/2.jfif",
+            img: "/img/no1/2.jfif",
             fl: "仙侠",
             zz:"xxxx",
             pm:"NO.2",
@@ -25,7 +25,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "地球超能",
-            img: "/img/小说1/3.jfif",
+            img: "/img/no1/3.jfif",
             fl: "都市",
             zz:"xxxx",
             pm:"NO.3",
@@ -33,7 +33,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "斗罗大陆",
-            img: "/img/小说1/4.jfif",
+            img: "/img/no1/4.jfif",
             fl: "玄幻",
             zz:"唐家三少",
             pm:"NO.4",
@@ -41,7 +41,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "将夜",
-            img: "/img/小说1/5.jfif",
+            img: "/img/no1/5.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.5",
@@ -49,7 +49,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "武极天下",
-            img: "/img/小说1/6.jfif",
+            img: "/img/no1/6.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.6",
@@ -57,7 +57,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "角临",
-            img: "/img/小说1/7.jfif",
+            img: "/img/no1/7.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.7",
@@ -65,7 +65,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "史上最牛宗门",
-            img: "/img/小说1/8.jfif",
+            img: "/img/no1/8.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.8",
@@ -73,7 +73,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "美漫世界当宅男",
-            img: "/img/小说1/9.jfif",
+            img: "/img/no1/9.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.9",
@@ -81,7 +81,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "妖界",
-            img: "/img/小说1/10.jpg",
+            img: "/img/no1/10.jpg",
             fl: "玄幻",
             zz:"木子摇",
             pm:"NO.10",
@@ -89,7 +89,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "回到北宋当大佬",
-            img: "/img/小说1/14.jpg",
+            img: "/img/no1/14.jpg",
             fl: "奇幻",
             zz:"祝大家郎",
             pm:"NO.11",
@@ -97,7 +97,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "恐怖修仙世界",
-            img: "/img/小说1/15.jpg",
+            img: "/img/no1/15.jpg",
             fl: "仙侠",
             zz:"龙蛇枝",
             pm:"NO.12",
@@ -109,7 +109,7 @@ export default class Body2 extends React.Component {
     getxiangxiList() {
         let xiangxiList = [{
             tm: "一世剑宗",
-            img: "/img/小说1/2.jfif",
+            img: "/img/no1/2.jfif",
             fl: "仙侠",
             zz:"xxxx",
             pm:"NO.2",
@@ -117,7 +117,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "地球超能",
-            img: "/img/小说1/3.jfif",
+            img: "/img/no1/3.jfif",
             fl: "都市",
             zz:"xxxx",
             pm:"NO.3",
@@ -125,7 +125,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "斗罗大陆",
-            img: "/img/小说1/4.jfif",
+            img: "/img/no1/4.jfif",
             fl: "玄幻",
             zz:"唐家三少",
             pm:"NO.4",
@@ -133,7 +133,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "将夜",
-            img: "/img/小说1/5.jfif",
+            img: "/img/no1/5.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.5",
@@ -141,7 +141,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "武极天下",
-            img: "/img/小说1/6.jfif",
+            img: "/img/no1/6.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.6",
@@ -149,7 +149,7 @@ export default class Body2 extends React.Component {
             js:"而在苏凌他们面色因此变化时，那高台上的天届学长们也是居高临下的笑望着他们，彼此交谈。"
         },{
             tm: "角临",
-            img: "/img/小说1/7.jfif",
+            img: "/img/no1/7.jfif",
             fl: "玄幻",
             zz:"xxxx",
             pm:"NO.7",
@@ -160,7 +160,7 @@ export default class Body2 extends React.Component {
     }
     getjutiList() {
         let jutiList=[{
-            img:"/img/小说1/1.jfif",
+            img:"/img/no1/1.jfif",
             tm: "大主宰",
             fl: "玄幻",
             zz: "天蚕土豆",

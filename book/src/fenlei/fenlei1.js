@@ -13,66 +13,66 @@ export default class Fenlei1 extends React.Component {
     getProductList() {
         let dateList = [{
             name: "玄幻",
-            img: "/img/图标/1.png",
+            img: "/img/icon/1.png",
             lj: "/homepage/fenlei2"
         }, {
             name: "奇幻",
-            img: "/img/图标/2.png",
+            img: "/img/icon/2.png",
             lj: "/homepage/fenlei"
         }, {
             name: "武侠",
-            img: "/img/图标/3.png",
+            img: "/img/icon/3.png",
             lj: "/homepage/fenlei"
         }, {
             name: "仙侠",
-            img: "/img/图标/4.png",
+            img: "/img/icon/4.png",
             lj: "/homepage/fenlei"
         }, {
             name: "都市",
-            img: "/img/图标/5.png",
+            img: "/img/icon/5.png",
             lj: "/homepage/fenlei"
         }, {
             name: "现实",
-            img: "/img/图标/6.png",
+            img: "/img/icon/6.png",
             lj: "/homepage/fenlei"
         }, {
             name: "军事",
-            img: "/img/图标/7.png",
+            img: "/img/icon/7.png",
             lj: "/homepage/fenlei"
         }, {
             name: "历史",
-            img: "/img/图标/8.png",
+            img: "/img/icon/8.png",
             lj: "/homepage/fenlei"
         }, {
             name: "游戏",
-            img: "/img/图标/9.png",
+            img: "/img/icon/9.png",
             lj: "/homepage/fenlei"
         }, {
             name: "体育",
-            img: "/img/图标/10.png",
+            img: "/img/icon/10.png",
             lj: "/homepage/fenlei"
         }, {
             name: "科幻",
-            img: "/img/图标/11.png",
+            img: "/img/icon/11.png",
             lj: "/homepage/fenlei"
         }, {
             name: "悬疑灵异",
-            img: "/img/图标/12.png",
+            img: "/img/icon/12.png",
             lj: "/homepage/fenlei"
         }, {
             name: "女生网",
-            img: "/img/图标/13.jpg",
+            img: "/img/icon/13.jpg",
             lj: "/homepage/fenlei1"
         }, {
             name: "轻小说",
-            img: "/img/图标/14.png",
+            img: "/img/icon/14.png",
             lj: "/homepage/fenlei1"
         }]
         return dateList
     }
     getNsList() {
         let nsList = [{
-            img: "/img/小说/1.jpeg",
+            img: "/img/no/1.jpeg",
             pm: "NO.1",
             tm: "青春有泪",
             zz: "xxx",
@@ -80,7 +80,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 1
         }, {
-            img: "/img/小说/2.jpg",
+            img: "/img/no/2.jpg",
             pm: "NO.2",
             tm: "L'ESPERIT del LLOP",
             zz: "xxx",
@@ -88,7 +88,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 2
         }, {
-            img: "/img/小说/3.jpg",
+            img: "/img/no/3.jpg",
             pm: "NO.3",
             tm: "三里湾",
             zz: "xxx",
@@ -96,7 +96,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 3
         }, {
-            img: "/img/小说/4.jpg",
+            img: "/img/no/4.jpg",
             pm: "NO.4",
             tm: "夜倾天下·帝妃太嚣张",
             zz: "xxx",
@@ -104,7 +104,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 4
         }, {
-            img: "/img/小说/5.jpg",
+            img: "/img/no/5.jpg",
             pm: "NO.5",
             tm: "蜀秀",
             zz: "xxx",
@@ -112,7 +112,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 5
         }, {
-            img: "/img/小说/6.jpg",
+            img: "/img/no/6.jpg",
             pm: "NO.6",
             tm: "愿我们终会与幸福相见",
             zz: "xxx",
@@ -120,7 +120,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 6
         }, {
-            img: "/img/小说/7.jpg",
+            img: "/img/no/7.jpg",
             pm: "NO.7",
             tm: "情来缘浅",
             zz: "xxx",
@@ -128,7 +128,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 7
         }, {
-            img: "/img/小说/8.jpg",
+            img: "/img/no/8.jpg",
             pm: "NO.8",
             tm: "白夜行",
             zz: "xxx",
@@ -136,7 +136,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 8
         }, {
-            img: "/img/小说/9.jpg",
+            img: "/img/no/9.jpg",
             pm: "NO.9",
             tm: "那些年被我们搁浅的伤",
             zz: "xxx",
@@ -144,7 +144,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 9
         }, {
-            img: "/img/小说/10.jpg",
+            img: "/img/no/10.jpg",
             pm: "NO.10",
             tm: "那年风吹柳絮",
             zz: "xxx",
@@ -152,7 +152,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 10
         }, {
-            img: "/img/小说/11.jpg",
+            img: "/img/no/11.jpg",
             pm: "NO.11",
             tm: "恋花",
             zz: "xxx",
@@ -160,7 +160,7 @@ export default class Fenlei1 extends React.Component {
             js: "柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。",
             pm1: 11
         }, {
-            img: "/img/小说/12.jpg",
+            img: "/img/no/12.jpg",
             pm: "NO.12",
             tm: "青谷子",
             zz: "xxx",

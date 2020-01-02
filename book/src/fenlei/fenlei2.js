@@ -13,59 +13,59 @@ export default class Fenlei2 extends React.Component {
     getProductList() {
         let dateList = [{
             name: "玄幻",
-            img: "/img/图标/1.png",
+            img: "/img/icon/1.png",
             lj: "/homepage/fenlei2"
         }, {
             name: "奇幻",
-            img: "/img/图标/2.png",
+            img: "/img/icon/2.png",
             lj: "/homepage/fenlei"
         }, {
             name: "武侠",
-            img: "/img/图标/3.png",
+            img: "/img/icon/3.png",
             lj: "/homepage/fenlei"
         }, {
             name: "仙侠",
-            img: "/img/图标/4.png",
+            img: "/img/icon/4.png",
             lj: "/homepage/fenlei"
         }, {
             name: "都市",
-            img: "/img/图标/5.png",
+            img: "/img/icon/5.png",
             lj: "/homepage/fenlei"
         }, {
             name: "现实",
-            img: "/img/图标/6.png",
+            img: "/img/icon/6.png",
             lj: "/homepage/fenlei"
         }, {
             name: "军事",
-            img: "/img/图标/7.png",
+            img: "/img/icon/7.png",
             lj: "/homepage/fenlei"
         }, {
             name: "历史",
-            img: "/img/图标/8.png",
+            img: "/img/icon/8.png",
             lj: "/homepage/fenlei"
         }, {
             name: "游戏",
-            img: "/img/图标/9.png",
+            img: "/img/icon/9.png",
             lj: "/homepage/fenlei"
         }, {
             name: "体育",
-            img: "/img/图标/10.png",
+            img: "/img/icon/10.png",
             lj: "/homepage/fenlei"
         }, {
             name: "科幻",
-            img: "/img/图标/11.png",
+            img: "/img/icon/11.png",
             lj: "/homepage/fenlei"
         }, {
             name: "悬疑灵异",
-            img: "/img/图标/12.png",
+            img: "/img/icon/12.png",
             lj: "/homepage/fenlei"
         }, {
             name: "女生网",
-            img: "/img/图标/13.jpg",
+            img: "/img/icon/13.jpg",
             lj: "/homepage/fenlei1"
         }, {
             name: "轻小说",
-            img: "/img/图标/14.png",
+            img: "/img/icon/14.png",
             lj: "/homepage/fenlei1"
         }]
         return dateList
@@ -73,61 +73,61 @@ export default class Fenlei2 extends React.Component {
     getWanbenList() {
         let wanebnList = [{
             tm: "外挂傍身的杂草",
-            img: "/img/小说1/11.jpg",
+            img: "/img/no1/11.jpg",
             zz:"xxx",
             fl:"玄幻",
             js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
         },{
             tm: "我的1979",
-            img: "/img/小说1/12.jpg",
+            img: "/img/no1/12.jpg",
             zz:"xxxx",
             fl:"玄幻",
             js:"柳慕白这个名字一出来，就连这些天届的学长们神情都是顿了顿，显然是感受到不小的压力。"
         },{
             tm: "武极天下",
-            img: "/img/小说1/6.jfif",
+            img: "/img/no1/6.jfif",
             zz:"xxxx",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "史上最牛宗门",
-            img: "/img/小说1/8.jfif",
+            img: "/img/no1/8.jfif",
             zz:"xxxx",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "美漫世界当宅男",
-            img: "/img/小说1/9.jfif",
+            img: "/img/no1/9.jfif",
             zz:"xxxx",
             fl:"奇幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "地球超能",
-            img: "/img/小说1/3.jfif",
+            img: "/img/no1/3.jfif",
             zz:"xxxx",
             fl:"都市",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "斗罗大陆",
-            img: "/img/小说1/4.jfif",
+            img: "/img/no1/4.jfif",
             zz:"唐家三少",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "将夜",
-            img: "/img/小说1/5.jfif",
+            img: "/img/no1/5.jfif",
             zz:"xxxx",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "角临",
-            img: "/img/小说1/7.jfif",
+            img: "/img/no1/7.jfif",
             zz:"xxxx",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"
         },{
             tm: "妖界",
-            img: "/img/小说1/10.jpg",
+            img: "/img/no1/10.jpg",
             zz:"木子摇",
             fl:"玄幻",
             js:"北灵院总榜第一，柳慕白，其父亲更是北灵境第一大域的域主，威名显赫。"

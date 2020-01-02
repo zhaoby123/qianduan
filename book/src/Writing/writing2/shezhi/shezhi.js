@@ -55,7 +55,7 @@ export default class Shezhi extends React.Component {
                 </div>
                 <div className={ShezhiCss.shezhi}>
                     <div>
-                        <img src="/img/小说1/21.png"></img>
+                        <img src="/img/no1/21.png"></img>
                         <span>上传新封面</span>
                     </div>
                     <div className={ShezhiCss.shezhi1}>
