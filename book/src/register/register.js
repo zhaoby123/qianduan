@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Modal, Button, message, Input } from 'antd'
+import { Modal, Button, message } from 'antd'
 var RegisterCss = require('./register.css')
 const { confirm } = Modal;
 function showConfirm() {
@@ -20,23 +20,21 @@ export default class Register extends React.Component {
     super(props);
     this.state = {}
   }
-  changeValue = (e) => {
+  changevalue = e => {
     this.setState({
-      [e.target.name]: e.target.value
+        [e.target.name]: e.target.value
     })
-
-  }
-  upload = () => {
+}
+  Register = () => {
     var data = {
-      "id": this.state.id,
-      "Name": this.state.Name,
-      "Nicheng": this.state.Nicheng,
-      "Usernumber": this.state.Usernumber,
+      "name": this.state.name,
+      "username": this.state.username,
+      "usernumber": this.state.usernumber,
       "sex": this.state.sex,
-      "Password": this.state.CertainPassword,
-      "email": this.state.email
+      "password": this.state.password,
+      "author":this.state.author
     }
-    fetch("/user/register", {
+    fetch("/user/Registration", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
@@ -70,22 +68,21 @@ export default class Register extends React.Component {
             </div>
             <div>注册</div>
             <div className={RegisterCss.body2}>
-              <Input type="text" name="id" placeholder="请填写您的用户名" value={this.state.id} onChange={e => this.changeValue(e)}></Input>
-              <Input type="text" name="Name" placeholder="请填写您的真实姓名" value={this.state.Name} onChange={e => this.changeValue(e)}></Input>
-              <Input type="text" name="Nicheng" placeholder="请填写您的昵称" value={this.state.Nicheng} onChange={e => this.changeValue(e)}></Input>
-              <Input type="text" name="Usernumber" placeholder="请填写您的手机号" value={this.state.Usernumber} onChange={e => this.changeValue(e)}></Input>
-              <Input type="text" name="sex" placeholder="请填写您的性别" value={this.state.sex} onChange={e => this.changeValue(e)}></Input>
-              <Input type="Password" name="Password" placeholder="请输入密码" value={this.state.Password} onChange={e => this.changeValue(e)}></Input>
-              <Input type="Password" name="CertainPassword" placeholder="请再次输入您的密码" value={this.state.CertainPassword} onChange={e => this.changeValue(e)}></Input>
-              <Input type="text" name="email" placeholder="请输入您的邮箱" value={this.state.email} onChange={e => this.changeValue(e)}></Input>
+
+              <input type="text" name="name" placeholder="请填写您的真实姓名" value={this.state.name} onChange={this.changevalue}></input>
+              <input type="text" name="usernumber" placeholder="请填写您的手机号" value={this.state.usernumber} onChange={this.changevalue}></input>
+              <input type="text" name="sex" placeholder="请填写您的性别" value={this.state.sex} onChange={this.changevalue}></input>
+              <input type="Password" name="password" placeholder="请输入密码" value={this.state.password} onChange={this.changevalue}></input>
+              <input type="text" name="username" placeholder="请填写您的昵称" value={this.state.username} onChange={this.changevalue}></input>
+              <input type="text" name="author" placeholder="是否想成为作家" value={this.state.author} onChange={this.changevalue}></input>
+              
               <Button className={RegisterCss.author} onClick={showConfirm}>成为签约作家</Button>
+
             </div>
             <div className={RegisterCss.body3}>
-              {/* <Link to="/landing"> */}
-              <button onClick={this.upload()}>
+              <button onClick={this.Register}>
                 立即注册
-                                </button>
-              {/* </Link> */}
+              </button>
             </div>
           </div>
         </div>
