@@ -8,8 +8,10 @@ var FenleiCss = require('./fenlei.css');
 
 
 export default class Fenlei1 extends React.Component {
-    constructor(props) {
-        super(props);}
+    constructor(props){
+        super(props)
+        
+    }
     getProductList() {
         let dateList = [{
             name: "玄幻",
@@ -170,11 +172,12 @@ export default class Fenlei1 extends React.Component {
         },]
         return nsList
     }
+
     render(){
         console.log(this.props.location.state)
         let dateList = this.getProductList();
         let ProductList = dateList.map((item, i) => (
-            <Tubiao product={item}></Tubiao>
+            <Tubiao product={item} onclick></Tubiao>
         ))
         let nsList = this.getNsList();
         let NsList = nsList.map((item, i) => (
